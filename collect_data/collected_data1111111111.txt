@@ -1,0 +1,4 @@
+Person 1111111111 grabbed wineB.	Elapsed time was: 9.16 seconds
+Person 1111111111 grabbed wineB.	Elapsed time was: 9.18 seconds
+Person 1111111111 grabbed bearT.	Elapsed time was: 15.41 seconds
+Person 1111111111 grabbed bearT.	Elapsed time was: 15.44 seconds

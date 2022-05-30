@@ -1,0 +1,271 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8397,
+      "max": [
+        9.869697570800781,
+        -134.41162109375,
+        310.10723876953125
+      ],
+      "min": [
+        -172.38949584960938,
+        -312.13275146484375,
+        -1.54364013671875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 100764,
+      "componentType": 5126,
+      "count": 8397,
+      "max": [
+        0.9998854398727417,
+        0.9999663829803467,
+        1.0
+      ],
+      "min": [
+        -0.9998854398727417,
+        -0.9999663233757019,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8397,
+      "max": [
+        0.9971696138381958,
+        0.9926084876060486
+      ],
+      "min": [
+        0.004732479341328144,
+        0.0032219483982771635
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 48894,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3D Share (https://sketchfab.com/3dsharesg)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/dust-bin-895fb3596c16407e8a30f0a29bea08a4",
+      "title": "Dust Bin"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 195576,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 67176,
+      "byteOffset": 195576,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 201528,
+      "byteOffset": 262752,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 464280,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Dust_Bin_baseColor.png"
+    },
+    {
+      "uri": "textures/Dust_Bin_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Dust_Bin",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Dust Bin_Dust Bin_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.001865715836174786,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.142721357458048e-19,
+        -0.001865715836174786,
+        0.0,
+        0.0,
+        0.001865715836174786,
+        4.142721357458048e-19,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Dust Bin.FBX"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        -0.45532836897772616,
+        1.4780306707069834e-16,
+        -1.251005036696393,
+        0.0,
+        -1.251005036696393,
+        -5.912122682827934e-16,
+        0.4553283689777263,
+        0.0,
+        -2.956061341413967e-16,
+        1.331291675567627,
+        2.956061341413967e-16,
+        0.0,
+        318.6535339355469,
+        0.000396728515625,
+        -9.61298942565918,
+        1.0
+      ],
+      "name": "Dust Bin"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        82.3155517578125,
+        226.1602325439453,
+        1.5436248779296875,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "Dust Bin_Dust Bin_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
